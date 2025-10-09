@@ -5,7 +5,11 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 import HelloWorld from "./components/HelloWorld";
+=======
+import HelloWorld from "./components/HelloWorld.vue";
+>>>>>>> gh-pages
 
 export default {
   name: "App",
