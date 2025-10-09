@@ -1,10 +1,10 @@
 {
-  "name": "readme-introgif",
+  "name": "VueParticleImageGen",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "vite build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r git@github.com:crpruett/VueParticleImageGen.git"
   },
   "dependencies": {
     "typeit": "7.0.4",
