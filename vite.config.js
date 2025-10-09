@@ -4,8 +4,5 @@ import vue from '@vitejs/plugin-vue2'
 export default defineConfig({
   plugins: [vue()],
   base: '/VueParticleImageGen/',
-  build: {
-    outDir: 'dist',
-  },
 })
 
