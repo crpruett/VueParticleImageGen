@@ -2,5 +2,10 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue2'
 
 export default defineConfig({
-  base: '/VueParticleImageGen/', // 👈 must match repo name exactly
+  plugins: [vue()],
+  base: '/VueParticleImageGen/',
+  build: {
+    outDir: 'dist',
+  },
 })
+
